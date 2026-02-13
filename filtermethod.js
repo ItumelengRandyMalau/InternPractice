@@ -1,4 +1,4 @@
-/*// JavaScript source code
+/// JavaScript source code
 //cretate users array using const
 const users = [
     { name: "Randy", isActive: true },
@@ -11,11 +11,11 @@ const users = [
 const activeUsers = users.filter(user => user.isActive);
 console.log(activeUsers);
 
-// Output: [ { name: 'Randy', isActive: true }, { name: 'Linda', isActive: true } ]
+/*// Output: [ { name: 'Randy', isActive: true }, { name: 'Linda', isActive: true } ]
 // using map() to get names of active users
 // output only names of active users
 const activeUserNames = activeUsers.map(user => user.name);
-console.log(activeUserNames); */
+console.log(activeUserNames);
 
 
 const users = [
@@ -33,10 +33,10 @@ const users = [
 
 const totalsByRole = users.reduce((acc, user) => {
     if (!acc[user.role]) {
-        acc[user.role] = 0;
+        acc[user.role] = 0; 
     }
-    acc[user.role] =+ user.purchases;
+    acc[user.role] = + user.purchases;
     return acc;
 }, {});
 console.log(totalsByRole);
-
+*/
