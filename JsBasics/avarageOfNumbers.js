@@ -17,4 +17,4 @@ let count = 0;
   }
 return count / numbers.length;
 }
-console.log( returnAvarage([]));
+console.log( returnAvarage([[2, 4, "6", 8]]));
